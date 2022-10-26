@@ -5,3 +5,10 @@ Class 401 fundamentals
 
 - Main.java
 - Methods include pluralize, flipHeads, and clock.
+
+## JavaLibrary
+
+- added a test file within my library file
+- added a roll method to see if an array "rolls" five times
+- added a duplicate method to see if a series of arrays contain duplicates.
+- added a average of arrays method to see the average of a series of a arrays to return the smallest one( doesnt work ).
