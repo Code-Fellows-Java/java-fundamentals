@@ -47,4 +47,14 @@ class LibraryTest {
         int[] answ = {8,7,6,5,6,5,4,5};
         assertEquals(answ, classUnderTest.matSearch(mat));
     }
+
+    @Test void weekTemp(){
+        Library classUnderTest = new Library();
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+    }
 }
