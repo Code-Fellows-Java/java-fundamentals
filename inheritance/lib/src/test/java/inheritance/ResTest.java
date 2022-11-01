@@ -14,7 +14,7 @@ public class ResTest {
     public void testRestaurantToString() {
         Restaurant restaurant = new Restaurant("Nick's Pizza Canyon.", 2);
 
-        assertEquals("Beautiful eatery with high-class salami, rating: 4, price list: 2, 0 reviews.",
+        assertEquals("Should be: Nick's Pizza Canyon., 0 average rating, 2 price list, 0 reviews. ",
                 "Nick's Pizza Canyon., 0 average rating, 2 price list, 0 reviews.",
                 restaurant.toString()
         );
