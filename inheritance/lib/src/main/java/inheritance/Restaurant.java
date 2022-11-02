@@ -35,6 +35,15 @@ public class Restaurant {
 
         return output.toString();
     }
+    private int averageRating() {
+        int sum = 0;
+
+        for (Review review: this.reviews) {
+            sum += review.getRating();
+        }
+        if (sum == 0) return 0;
+        return sum / this.reviews.size();
+    }
 
     public void addReview(Review review) {
         if (!this.reviews.contains(review)) {
